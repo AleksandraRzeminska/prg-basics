@@ -8,4 +8,4 @@ weight = int(weight)
 bmi = weight / (height/100)**2
 bmi = round(bmi,2)
 print('Your BMI is', bmi)
-print('Check on the Internet if your BMI is ok!!')
+print('Check on the Internet if your BMI is ok!!') 
