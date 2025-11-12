@@ -6,7 +6,11 @@ month = int(input('Enter month number (1..12): '))
 
 if month >= 10:
     quarter = 4
-elif ...:
-    ...
+elif month <=9 and month >6:
+    quarter = 3
+elif month <=6 and month >3:
+    quarter = 2
+elif month <=3 and month >=1:
+    quarter = 1
 
-print('Month {...} is in quarter {...}')
+print(f'Month {month} is in quarter {quarter}')
