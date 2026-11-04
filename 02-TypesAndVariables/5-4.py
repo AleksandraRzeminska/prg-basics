@@ -1,7 +1,9 @@
-# A program that calculates VAT form amount 
-#
-amonunt_string = input('Enter your amount: ')
-amount =float(amonunt_string)
-VAT = (0.23*amount)
-two_decimal_places = round(VAT, 2) #zaokrąglanie liczby do dwóch miejsc po przecinku
-print(f'The VAT in your amount is {two_decimal_places}')
+###
+# 23% VAT was paid from an amount.
+# Write a program that reads an amount from the keyboard. 
+# Then, it calculates and prints both the amount and its VAT. 
+# Apply formatting with two decimal places.
+
+kwota = float(input("Podaj kwotę "))
+vat = round(0.23*kwota, 2)
+print(f'Kwota: {kwota} \nVAT 23%: {vat}')

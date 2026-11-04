@@ -8,16 +8,16 @@ movie = "The Lord of the Rings: The Return of the King"
 print('Number of characters: ', len(movie))
 
 # print title in capital letters
-print('Title in capital letters: ', movie.upper())
+print(f'Title in capital letters: {movie.upper()} ')
 
 # print title in small letters
-print('Title in small letters: ', movie.casefold())
+print(f'Title in small letters: {movie.casefold()} ')
 
 # print how many times the vowel "e" appears in the title
-print('The letter "e" appears: ', movie.count('e'),' times in the title')
+print(f'e apears: {movie.count("e")} ')
 
 # print where in the text is the word "Lord"
-print('The "Lord" in the text is: ', movie.index('Lord'))
+print(f'The Lord in the text is: {movie.find("Lord")} ')
 
 # print where in the text is the word "dragon"
-print('The "dragon" in the text is: ', movie.index('dragon'))
+print(f'The dragon in the text: {movie.rfind("dragon")} ')

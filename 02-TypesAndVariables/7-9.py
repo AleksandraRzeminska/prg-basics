@@ -1,11 +1,9 @@
 ###
-# program that prints the number of dice rolled
-# the value True if the number rolled is 1 or 6
+# Write a program that prints the number of dice rolled 
+# and the value True if the number rolled is 1 or 6.
 
-import random 
+import random
 
-dice_roll = random.randint(1,6)
-print(f'Dice number: {dice_roll}')
-
-special_number = dice_roll==1 or dice_roll==6
-print(f'Special number (1 or 6): {special_number}')
+rzut_kostką = random.randint(1,6)
+specjalna_liczba = rzut_kostką == 1 or rzut_kostką == 6
+print(f'Dice rolled: {rzut_kostką}\nSpecial number (1 or 6): {specjalna_liczba}')

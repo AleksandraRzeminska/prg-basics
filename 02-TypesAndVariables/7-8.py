@@ -1,6 +1,10 @@
-
-## program which returns a integer random number in the range <a,b>
-
+###
+# A program that prints results of three dice rolls
+# and the sum of dice rolled.
+#
 import random
-random_number = random.randint(5,10)
-print(random_number)
+dice_roll_1 = random.randint(1,6)
+dice_roll_2 = random.randint(1,6)
+dice_roll_3 = random.randint(1,6)
+total = dice_roll_1 + dice_roll_2 + dice_roll_3
+print(f"Dice roll one is: {dice_roll_1}, dice roll two is: {dice_roll_2} and the dice roll three is {dice_roll_3}\nThe sum of dice rolled is {total}")

@@ -3,14 +3,11 @@
 # and surface area of ​​a cuboid with sides a, b, and c.
 # Read the dimensions of the cuboid from the keyboard.
 #
-a_string = input('a=')
-b_string = input('b=')
-c_string = input('c=')
-a = int(a_string)
-b = int(b_string)
-c = int(c_string)
-cuboid_volume = a*b*c
-cuboid_surface_area = 2*(a*b + a*c + b*c)
-print(f'The volume of a cuboid with a sides {a}, {b} and {c} is {cuboid_volume}')
-print(f'The surface area of a cuboid with a sides {a}, {b} and {c} is {cuboid_surface_area}')
+a = int(input('a='))
+b = int(input('b='))
+c = int(input('c='))
 
+objętość = a*b*c
+pole_powierzchni = 2*(a*b + a*c + b*c)
+
+print(f'Objetośc dla prostopadłościonau o bokach a= {a} b= {b} c= {c} wysosi {objętość}, a pole powierzchni {pole_powierzchni}')

@@ -9,6 +9,6 @@ file_name = 'it_company.txt'
 job_title = 'Software Engineer'
 
 with open('it_company.csv', "r") as file:
-   for line in :
+   for line in:
       if job_title in line:
          print 

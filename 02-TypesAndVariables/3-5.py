@@ -6,4 +6,4 @@ import math
 a = 5
 b = 8
 diagonal = math.sqrt(a**2 + b**2)
-print(diagonal)
+print("The diagonal of a restagle with sides a=",a, "and b=",b, "is ",diagonal)

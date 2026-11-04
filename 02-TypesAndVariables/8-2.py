@@ -3,12 +3,14 @@
 #
 
 # determine radius and PI values
-import math
-pi_number= round(math.pi, 2) # zaokrąglenie do dówch miejs po przecinku
-r = int(input('Enter radius: '))
+import math 
+
 # calculate area 
-area= pi_number*(r**2)
+r = int(input('Podaj promień: '))
+p = round(math.pi*(r**2),2)
+
 # calculate circumference 
-circumference= 2*pi_number*r
+d = round(math.pi*2*r,2)
+
 # print results
-print(f'For r={r}, the area of circle is: {area} and circumrefence of circle is: {circumference}')
+print(f'For r={r} the circumference is {d} and the area is: {p}')

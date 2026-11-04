@@ -1,10 +1,9 @@
-## program który mówi czy można ściać drzewo
-# na podstawie jego obwodu wprowadzonego z klawiatury
-# jeżeli drzewo ma średnicę mniejszą niż 50 cm nie wolno go ściąć
-# Tree 1: 160 Tree 2: 90 Tree 3: 230 Tree 4: 120
-
+###
+#A tree may be cut down if its diameter is at least 50 cm. 
+# Write a program that, based on the circumference of the tree 
+# entered from the keyboard, calculates and prints the value 
+# True if the tree can be cut down, or print the value False otherwise.
 import math
-obwód = int(input('Podaj obwód drzewa w cm: '))
-średnica = obwód/math.pi
-ściąć = średnica >= 50
-print(f'Drzewo można ściać: {ściąć}')
+obwód = int(input("Enter tree circrumference: "))
+średnica = obwód/math.pi >= 50
+print(f"Tree can be cut down: {średnica}")

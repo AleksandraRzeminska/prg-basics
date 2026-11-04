@@ -1,14 +1,13 @@
-# Program that calculates a discount 
-# print the product price, discount, 
-# print difference between the product price before and after the discount
+###
+# The price of the product on the price tag is given before and after the discount is applied. 
+# Write a program that allows you to enter the product price and discount. 
+# Print the product price, discount, discounted product price, and the difference between the product price before and after the discount. 
+# Print all prices with two decimal places.
 
-price_string= input("Enter the product price: ")
-discount_string= input("Enter the discount in % ")
-price= float(price_string)
-discount= float(discount_string)
-price_after_discount= 0.01*(100- discount)*price 
-price_after_discount_two_places= round(price_after_discount, 2)
-reduction= (price - price_after_discount)
-reduction_two_places= round(reduction, 2)
-print(f"The product price was {price}, the discount is {discount}%")
-print(f"Now the product price is {price_after_discount_two_places} and the reduction is {reduction_two_places}")
+kwota = float(input("Podaj kwotę: "))
+zniżka = int(input("Podaj zniżke w %: "))
+zniżka_po_przecinku = (100-zniżka)/100
+cena_ze_zniżką = round(kwota*zniżka_po_przecinku,2)
+różnica = round(kwota-cena_ze_zniżką,2)
+
+print(f'Enter price: {kwota} \nEnter discount %: {zniżka}\nPrice with discount: {cena_ze_zniżką}\nReduction: {różnica}')
