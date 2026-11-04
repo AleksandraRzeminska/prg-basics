@@ -4,10 +4,10 @@
 # tasks is at least 50%
 #
 total_tasks = 20
-tasks_ok = int(input('How much points do you have: '))
+tasks_ok = 20
 test_passed = False
 
-if tasks_ok >= (total_tasks/2)  :
+if tasks_ok >= total_tasks * 0.5 :
     test_passed = True
 
 if test_passed:
