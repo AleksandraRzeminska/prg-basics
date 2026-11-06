@@ -4,5 +4,5 @@
 #
 import random
 
-dice_roll = random.randint(1,7)
-print('A numer is: ', dice_roll)
+rzut = random.randint(1,6)
+print("The random number: ",rzut)

@@ -7,9 +7,14 @@ def day_name(day_number):
     if day_number == 1:
         result = 'Monday'
     elif day_number == 2:
-        ...
-    ...
-    ...
+            result = 'Wtorek'
+    elif day_number == 3:
+            result = 'Sroda'
+    elif day_number == 5:
+            result = 'Piatek'
+    elif day_number == 7:
+            result = 'Niedziela'
+    
     return result
 
 # Function usage
