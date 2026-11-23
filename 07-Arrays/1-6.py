@@ -4,6 +4,10 @@
 def weekday(n):
       weekdays = ["Monday", "Tuesday", "Wednesday",
          "Thursday", "Friday", "Saturday", "Sunday"]
-   return weekdays[n]
+      return weekdays[n-1]
 
-   
+
+if __name__ == "__main__":
+      print(weekday(1))
+      print(weekday(5))
+      print(weekday(7))
